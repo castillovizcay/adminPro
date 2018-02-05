@@ -22,6 +22,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 // Temporal
 import { IncrementadorComponent } from './../component/incrementador/incrementador.component';
 import { ChartsComponent } from '../component/charts/charts.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ChartsComponent } from '../component/charts/charts.component';
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        ChartsComponent
+        ChartsComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
